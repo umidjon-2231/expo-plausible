@@ -26,7 +26,7 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'warn',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
   },
-  ignorePatterns: ['build/', 'dist/', 'node_modules/'],
+  ignorePatterns: ['build/', 'dist/', 'node_modules/', 'example/'],
 };
 
 

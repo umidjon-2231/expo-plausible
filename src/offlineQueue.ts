@@ -40,7 +40,6 @@ function resolveStorage(): KeyValueAsyncStorage {
   if (cachedStorage) return cachedStorage;
   // Try to resolve @react-native-async-storage/async-storage at runtime
   try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires,@typescript-eslint/no-unsafe-assignment
     const mod = require('@react-native-async-storage/async-storage');
     // Some builds export default, others export as module
     const storage: any = mod?.default ?? mod;
@@ -84,7 +83,6 @@ export type FlushOptions = {
 function isTrackingEnabledSafe(): boolean {
   try {
     // Lazy import to avoid circular deps
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
     const consent = require('./consent');
     if (consent && typeof consent.isTrackingEnabled === 'function') {
       return !!consent.isTrackingEnabled();

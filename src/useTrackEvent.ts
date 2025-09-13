@@ -75,7 +75,6 @@ export function useTrackEvent(): (request: TrackEventRequest) => Promise<void> {
           // ignore enqueue errors
         }
       }
-      // eslint-disable-next-line no-console
       console.error('Failed to send Plausible event', err);
       throw err;
     }
