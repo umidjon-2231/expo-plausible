@@ -1,0 +1,17 @@
+# Exclude examples, tests, and config files from the published package
+example/
+examples/
+test/
+tests/
+__tests__/
+coverage/
+jest.config.js
+.eslintrc.js
+.prettierrc
+tsconfig.json
+pnpm-lock.yaml
+.vscode/
+.idea/
+*.log
+
+

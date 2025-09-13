@@ -1,0 +1,64 @@
+# Node / package managers
+node_modules/
+node_modules/**
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Build outputs
+build/
+dist/
+
+# Tests & coverage
+coverage/
+.nyc_output/
+.eslintcache
+
+# Jest
+jest-results.json
+jest-cache/
+.jest/
+
+# Expo (for example app or if used locally)
+.expo/
+.expo-shared/
+web-build/
+
+# Example app artifacts
+example/node_modules/
+example/ios/
+example/android/
+example/.expo/
+example/.expo-shared/
+example/web-build/
+example/build/
+example/dist/
+example/coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Caches & temp
+.cache/
+tmp/
+temp/
+
+# Package artifacts
+*.tgz
+
