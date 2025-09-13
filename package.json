@@ -1,11 +1,11 @@
 {
   "name": "expo-plausible",
   "version": "0.1.0",
-  "description": "Plausible Analytics integration for Expo (base package scaffold)",
+  "description": "Plausible Analytics integration for Expo",
   "license": "MIT",
-  "author": "",
-  "repository": "",
-  "homepage": "",
+  "author": "umidjon-2231",
+  "repository": "https://github.com/umidjon-2231/expo-plausible",
+  "homepage": "https://github.com/umidjon-2231/expo-plausible",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
